@@ -22,8 +22,9 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
-    /*
+    
     NSArray *familyNames = [UIFont familyNames];
+    
     for( NSString *familyName in familyNames ){
         printf( "Family: %s \n", [familyName UTF8String] );
         NSArray *fontNames = [UIFont fontNamesForFamilyName:familyName];
@@ -31,7 +32,7 @@
             printf( "\tFont: %s \n", [fontName UTF8String] );
         }
     }
-     */
+     
     
     [self createViewControllers];//向分栏视图控制器中添加视图控制器
     
